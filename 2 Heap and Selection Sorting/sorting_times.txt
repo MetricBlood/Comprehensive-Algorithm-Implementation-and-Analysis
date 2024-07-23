@@ -1,0 +1,6 @@
+Set 1: Heap Sort Time = 0.000000 seconds, Selection Sort Time = 0.000000 seconds
+Set 2: Heap Sort Time = 0.000000 seconds, Selection Sort Time = 0.020066 seconds
+Set 3: Heap Sort Time = 0.002993 seconds, Selection Sort Time = 2.056698 seconds
+Set 4: Heap Sort Time = 0.044425 seconds, Selection Sort Time = 217.564932 seconds
+Set 5: Heap Sort Time = 0.335382 seconds, Selection Sort Time = 6521.760197 seconds
+Set 6: Heap Sort Time = 1.080003 seconds, Selection Sort Time = 30881.992457 seconds
