@@ -1,26 +1,22 @@
 # Comprehensive Algorithm Implementation and Analysis
 
-Implementations of classic algorithms in Python, each benchmarked on generated datasets, with the running times plotted so the theoretical complexity can be compared against what actually happens.
+Classic algorithms implemented in Python, each run against generated datasets and measured, so the theoretical complexity can be compared against what actually happens on real input.
 
-The point of the project was not to implement the algorithms — it was to measure them and see where the textbook complexity does and does not hold.
+The point of the project was not to implement the algorithms — it was to generate the data, measure the runs and see where the textbook behaviour does and does not hold.
 
 ## Contents
 
-**1. Generating Data Sets**
-Scripts that produce input sets of controlled size and shape, so every algorithm below is measured on the same data rather than on whatever was convenient.
+**1. Generating Data Sets** — `Dataset1.py`, `Dataset2.py`
+Scripts that produce the input sets everything else runs on, so every algorithm below is measured against the same data rather than against whatever was convenient.
 
-**2. Heap and Selection Sorting**
-Heap Sort and Selection Sort implemented from scratch and timed across increasing input sizes, showing the gap between O(n log n) and O(n²) opening up as n grows.
+**2. Heap and Selection Sorting** — `Heap and Selecton.py`
+Heap Sort and Selection Sort implemented from scratch and run across both datasets, with the sorted output written out per run and the timings charted. This is where the gap between O(n log n) and O(n²) shows up.
 
-**3. Dijkstra and Kruskal**
-Dijkstra's shortest path and Kruskal's minimum spanning tree, run over generated graphs of varying density to see how each responds to edge count rather than just vertex count.
+**3. Dijkstra and Kruskal** — `Dijkstra.py`, `Kruskal.py`
+Dijkstra's shortest path and Kruskal's minimum spanning tree, each writing its results to file for inspection rather than only printing to screen.
 
-**4. Knapsack**
-A dynamic programming solution to the knapsack problem, measured against problem size and capacity.
-
-## What came out of it
-
-Performance visualisations covering time and space trade-offs for each algorithm, which is the part that made the difference between having implemented something and having understood it.
+**4. Knapsack** — `Part4.py`
+A 0/1 knapsack solved by dynamic programming, using a one-dimensional table with a reverse weight sweep and backtracking to recover which items were selected. Framed as a route-planning problem over a set of stars with weight and profit values, under a fixed capacity.
 
 ## Built with
 
